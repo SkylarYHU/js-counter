@@ -7,4 +7,4 @@ Click here to view the demo: [Demo](https://skylaryhu.github.io/js-counter/)
 
 
 ## Screenshots
-![Counter App Screenshot](screenshot.png)
+![Counter App Screenshot](Screenshots/screenshot.png)
