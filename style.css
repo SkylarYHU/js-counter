@@ -1,0 +1,65 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #f0f8ff;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#countLabel {
+  font-size: 7em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#btnContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#decreaseBtn {
+  background-color: #ff6347; /* Tomato */
+}
+
+#resetBtn {
+  background-color: #1e90ff; /* Dodger Blue */
+}
+
+#increaseBtn {
+  background-color: #32cd32; /* Lime Green */
+}
+
+.buttons:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buttons:active {
+  transform: scale(1);
+  box-shadow: none;
+}
